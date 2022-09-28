@@ -1,3 +1,10 @@
+"""
+Team M3HT: Shinji Kusakabe, Joseph Jeon, Ryan Lee
+
+DISCO: random.choice is cool
+QCC: 
+"""
+
 import random as rng
 
 krewes1 = {2:["A", "B", "C"], 3:["D", "E", "F"]}
