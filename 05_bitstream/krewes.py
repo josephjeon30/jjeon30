@@ -6,6 +6,7 @@ DISCO:
     Opening and reading files
     
 QCC:
+    We don't know how to get the entire set of data. 
 
 """
 
@@ -18,7 +19,7 @@ def populate(fileName):
     
     profiles = file.split("@@@")
     
-    for i in profiles:
+str    for i in profiles:
         j = i.split("$$$")
         krewes[int(j[0])].append((j[1],j[2]))
     
