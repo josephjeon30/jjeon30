@@ -6,7 +6,6 @@ DISCO:
     Opening and reading files
     
 QCC:
-    We don't know how to get the entire set of data. 
 
 """
 
