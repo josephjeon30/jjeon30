@@ -20,7 +20,28 @@ def main():
     parseinfo("occupations.csv", jobs, weight)
     print(__name__) 
     return(
-        str(random.choices(jobs, weights = weight)[0]))
+        """
+        <style>
+            body{
+                font-size: 50px; 
+            }
+            
+            #main{
+                margin-top:25%;
+                width:50%;
+                text-align:center;
+                background-color:rgb(0,0,0);
+                color:rgb(255,255,255);
+                margin-right:auto;
+                margin-left:auto;
+            }
+        </style>
+        """+
+        "<body>"+
+        "<div id = \"main\">" + str(random.choices(jobs, weights = weight)[0])  + "<br><a href=\"http://127.0.0.1:5000\">RELOAD</a>" + "</div>"
+        
+        )
+        
     
 def parseinfo(file, jobs, weight):
     occ_wei = open(file, "r").read()
