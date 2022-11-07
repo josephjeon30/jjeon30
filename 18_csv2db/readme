@@ -1,0 +1,14 @@
+# TNPG: STEVE, ROSTER: Ryan, Joseph, Samson
+# Time spent: 0.5 hrs
+
+# QCC:
+
+# DISCO:
+# # with open('courses.csv') as courses_data:
+# #     reader = csv.DictReader(courses_data)
+# #     print("Data:")
+# #     for row in reader:
+# #         print(row)
+# We can use DictReader(string) to return a list of dictionaries. Then we can loop through the list and print each row individually.
+# 
+# '\"' allows us to put the double quotes (") character into a string
