@@ -1,20 +1,22 @@
 u2be: Joseph Jeon and Nakib Abedin
 SoftDev 
-K23
+K23 -- A Day of Noodling (testing bootstrap)
 2022-11-29
-Time Taken: 0.5 hrs
+Time Taken: 1.0 hrs
 
 DISCO:
+	On this MacBook, font family defaults to: 
+		system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+	as opposed to the usual serif font
 
-On this MacBook, font family defaults to: 
-	system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
-as opposed to the usual serif font
+	h1 text and all columns/containers scales with window size
 
-h1 text and all columns/containers scales with window size
+	Columns: Placing text on certain parts of the screen are way easier now
+	12 columns in total
+	A column of size x would take up the space of x regular columns
 
-Columns: Placing text on certain parts of the screen are way easier now
-12 columns in total
+	You can add onto the default styling from Bootstrap using your own CSS
 
 QCC:
-
-Is the default font family different across different operating systems?
+	Is the default font family different across different operating systems?
+	How do we change the CSS for an entire class at once (e.g. instead of having to do styling for col-1 col-2 col-3 ..., is there a way to edit the CSS for all col classes at the same time?)
