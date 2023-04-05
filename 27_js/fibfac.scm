@@ -6,9 +6,8 @@
 ;Scheme Antecedents for JS work
 ;factorial:
 
-(define fact 
-	(lambda (n)
-		(if (< n 2) 1 (* n (fact(- n 1))))))
+(define fact (lambda (n)
+	(if (< n 2) 1 (* n (fact(- n 1))))))
 
 (fact 1) ;"...should be  1"
 (fact 2) ;"...should be  2"
