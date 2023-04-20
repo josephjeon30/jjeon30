@@ -30,7 +30,6 @@ var o = { 'name' : 'Thluffy',
           }
         };
 
-
 var addItem = function(text) {
   var list = document.getElementById("thelist");
   var newitem = document.createElement("li");
@@ -104,5 +103,26 @@ const myFxn = (param1, param2) => {
   // body
   return retVal;
 };
+
+var fibButton = document.getElementById('fib')
+var facButton = document.getElementById('fac')
+var gcdButton = document.getElementById('gcd')
+
+fibButton.addEventListener('click', ()=> {
+  var thing = document.getElementById("calculatorNans");
+  var a = 10
+  thing.innerHTML = "the " + a + "th term of the fibonacci sequence is " + fib(a)
+})
+facButton.addEventListener('click', function() {
+  var thing = document.getElementById("calculatorNans");
+  var a = 10
+  thing.innerHTML = "factorial of " + a + " is " + fac(a)
+})
+gcdButton.addEventListener('click', function() {
+  var thing = document.getElementById("calculatorNans");
+  var a = 20
+  var b = 37
+  thing.innerHTML = "gcd of " + a + " and " + b + " is " + gcd(a,b)
+})
 
 
