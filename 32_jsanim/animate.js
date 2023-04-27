@@ -17,8 +17,8 @@ var clear = (e) => {
 var dvdLogoSetup = () => {
     window.cancelAnimationFrame(requestID);
 
-    var rectWidth = 120;
-    var rectHeight = 80;
+    var rectWidth = 60;
+    var rectHeight = 40;
 
     var rectX = (c.width - rectWidth) * Math.random();
     var rectY = (c.height - rectHeight) * Math.random();
